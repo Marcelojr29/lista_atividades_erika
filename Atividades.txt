@@ -1,0 +1,72 @@
+1. Forneça uma breve definição do que é um algoritmo
+R = Uma sequência de passos a serem seguidos;
+*******************************************************************************************************
+2. Para os algoritmos abaixo, informe qual a saída de acordo com as entradas fornecidas: escrever em C
+a) ENTRADA: nota1 = 9,5 nota2 = 8,0;
+b) ENTRADA: nome = "Jurubeba Asdrúbol" idade = 45
+*******************************************************************************************************
+3. Escreva um programa que leia um número inteiro que represente a idade de uma pessoa (em anos). 
+Calcule numa variável real quantos minutos esta pessoa já viveu e apresente na tela. 
+*******************************************************************************************************
+4.Construa um algoritmo que, tendo como dados de entrada três pontos quaisquer no plano, 
+P(x1,y1), P(x2,y2) e P(x3,y3), escreva a distância entre eles. A fórmula que efetua tal cálculo é: 
+raiz quadrada((x2 - x1)^2 + (y2 - Y1)^2) OBS.: para a raiz quadrada utilize sqrt(). 
+*******************************************************************************************************
+5.Escreva um algoritmo para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor 
+correspondente em graus Celsius (baseado na fórmula abaixo): C = 5(F-32)/9: escrever em portugol
+*******************************************************************************************************
+6.Criar um algoritmo que calcule e imprima a área de um losango. Área = diagmaior*diagmenor/2. escrever em portugol
+*******************************************************************************************************
+7.A prefeitura de Manaus abriu uma linha de crédito para os funcionários estatutários. O valor máximo da prestação 
+não poderá ultrapassar 30% do salário bruto. Fazer um algoritmo que permita entrar com o salário bruto e o valor 
+da prestação e informar se o empréstimo pode ou não ser concedido. escrever em portugol
+*******************************************************************************************************
+8.Entrar com a sigla do estado de uma pessoa e imprimir uma das mensagens, programar em C:
+	1. Amazonense;
+	2. Carioca;
+	3. Paraense;
+	4. Acreano;
+*******************************************************************************************************
+9.Criar um algoritmo que a partir da idade e peso do paciente calcule a dosagem de determinado medicamento e 
+imprima a receita informando quantas gotas do medicamento o paciente deve tomar por dose. 
+Considere que o medicamento em questão possui 500mg por ml, e que cada ml corresponde a 20 gotas. 
+• Adultos ou adolescentes desde 12 anos, inclusive, se tiverem peso igual ou acima de 60 
+quilos devem tomar 1000mg; com peso abaixo de 60 quilos devem tomar 875 mg. 
+• Para crianças e adolescente abaixo de 12 anos a dosagem é calculada pelo peso 
+corpóreo conforme a tabela a seguir: 
+| 5kg a 9kg = 125mg | 24.1kg a 30kg = 500mg | 
+| 9.1kg a 16kg = 250mg | Acima de 30kg = 750mg |
+| 16.1kg a 24kg = 375mg |  
+*******************************************************************************************************
+10.Criar um algoritmo que imprima os números de -100 a 300. escrever em portugol
+*******************************************************************************************************
+11.A série de FETUCCINE é gerada da seguinte forma: os dois primeiros termos são fornecidos pelo usuário; 
+a partir daí, os termos são gerados com a soma ou subtração dos dois termos anteriores, ou seja: 
+Ai = Ai-1 + Ai-2 para i ímpar 
+Ai = Ai-1 – Ai-2 para i par 
+ Criar um algoritmo que imprima os 10 primeiros termos da série de FETUCCINE.
+*******************************************************************************************************
+12. Elaborar um programa que: escrever em C
+	a) Calcule e escreva o valor da série abaixo com 100 termos;
+S= 70/7 + 69/14 + 68/21 + 67/28 + ...
+*******************************************************************************************************
+13.Fazer um programa que leia um valor e depois calcule e escreva o resultado do seguinte somatório: escrever em C
+x^25/1 - x^24/2 + x^23/3 - x^22/4+ ... + x^01/25
+
+*******************************************************************************************************
+14.Uma pesquisa sobre algumas características físicas da população de uma determinada região coletou 
+os seguintes dados, referentes a cada habitante, para análise: escrever em C
+a) sexo (masculino, feminino);
+b) cor dos olhos (azuis, verdes, castanhos);
+c) cor dos cabelos (louros, castanhos, pretos);
+d) idade em anos;
+Para cada habitante foi preenchido um cartão com estes dados e o último cartão, que não corresponde a ninguém, 
+contém o valor de idade igual a -1. Fazer um programa que determine e escreva:
+a) a maior idade dos habitantes;
+b) a percentagem de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos, inclusive, e que tenham olhos verdes e cabelos louros.
+*******************************************************************************************************
+15.Deseja-se fazer um levantamento a respeito da ausência de alunos à primeira prova de Programação de Computadores para cada uma das 14 turmas existentes. Para cada turma, é fornecido um conjunto de valores, sendo que os dois primeiros valores do conjunto corresponde a identificação da turma (A, ou B, ou C,...) e ao número de alunos matriculados, e os demais valores deste conjunto contêm o número de matrícula do aluno e a letra A ou P para o caso de o aluno estar ausente ou presente, respectivamente. Fazer um algoritmo que: 
+- para cada turma, calcule a porcentagem de ausência e escreva a identificação da turma e a 
+porcentagem calculada; 
+- determine e escreva quantas turmas tiveram porcentagem de ausência superior a 5%.
+*******************************************************************************************************
